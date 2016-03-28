@@ -1,81 +1,35 @@
+body {
+	font-family: sans-serif;
+}
+
 .checkedOff {
 	text-decoration: line-through;
-	content: "hi";
  }
 
+ input[type="button" i] {
+ 	font-family: sans-serif;
+ 	font-weight: 400;
+ }
 
-.emoji-toggle {
-	position: relative;
-	width: 60px;
-	margin: 40px auto;
-}
-
-.well {
-		display: block;
-		background: #eee;
-		height: 20px;
-		border-radius: 10px;
-		cursor: pointer;
-}
-
-.toggle {
-		opacity: 0;
-		border: 0;
-		outline: none;
-		height: 100%;
-		width: 100%;
-		background: transparent;
-		position: absolute;
-		cursor: pointer;
-		z-index: 100;
-
+.button {
+	font-family: san-serif;
+	height: 30px;
+	width: 130px;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #00A9DD;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	border-color: #F01652;
+	margin: auto;
+	padding: 0 0 0 0;
+	font-size: 20px;
+	opacity: 0.75;
 }
 
-.emoji:before {
-			content: "😄";
-			position: absolute;
-			left: 0;
-			top: -15px;
-			font-size: 40px;
-			transition: 0.2s;
+.button:hover {
+	background: #FFF;
 }
-&:checked {
-	~.emoji:before{
-				left: 100%;
-				margin-left: -1em;
-	}
-}
-~label {
-	white-space: nowrap;
-	&:before {
-		position: absolute;
-		right: 100%;
-		margin-right: 5px;
-		top: 0;
-	}
-	&:after {
-		position: absolute;
-		left: 100%;
-		margin-left: 5px;
-		top: 0;
-	}
-}
-@mixin emojiType($leftEmoji, $rightEmoji) {
-}
-.emoji:before {
-			content: $leftEmoji;
-}
-
-.emoji:checked {
-				content: $rightEmoji;
-}
-
-
-.emoji-happy {
-	@include emojiType(
-		"😄", "😫"
-	);
-}
-
 
 
