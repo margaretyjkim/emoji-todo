@@ -11,6 +11,10 @@ body {
  	font-weight: 400;
  }
 
+ input:focus {
+	font-weight: bold;
+ }
+
 .button {
 	font-family: san-serif;
 	height: 30px;
