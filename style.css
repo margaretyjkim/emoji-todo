@@ -5,13 +5,18 @@
 
 body {
 	font-family: sans-serif;
+	margin: 2%;
 }
 
 .checkedOff {
 	text-decoration: line-through;
  }
 
- input[type="button" i] {
+input[type="text" i ] {
+	height: 30px;
+}
+
+input[type="button" i] {
  	font-family: sans-serif;
  	font-weight: 400;
  	font-size: 8px;
