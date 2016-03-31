@@ -8,12 +8,17 @@ body {
 	margin: 2%;
 }
 
+label {
+	width: 100px;
+	line-height: 30px;
+}
+
 .checkedOff {
 	text-decoration: line-through;
  }
 
 input[type="text" i ] {
-	height: 30px;
+	height: 25px;
 }
 
 input[type="button" i] {
