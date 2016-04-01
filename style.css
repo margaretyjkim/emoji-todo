@@ -5,7 +5,8 @@
 
 body {
 	font-family: sans-serif;
-	margin: 2%;
+	margin: auto;
+	width: 300px;
 }
 
 label {
@@ -19,7 +20,7 @@ label {
 
 input[type="text" i ] {
 	height: 25px;
-	width: 350px;
+	width: 200px;
 	border-radius: 3px;
 	padding: 0 6px;
 }
@@ -37,7 +38,7 @@ input[type="button" i] {
 .button {
 	font-family: san-serif;
 	height: 30px;
-	width: 130px;
+	width: 70px;
 	border-radius: 10px;
 	background-color: #00A9DD;
 	border: 10px double;
