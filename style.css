@@ -6,7 +6,8 @@
 body {
 	font-family: sans-serif;
 	margin: auto;
-	width: 300px;
+	width: 400px;
+	background-color: tomato;
 }
 
 label {
@@ -17,6 +18,12 @@ label {
 .checkedOff {
 	text-decoration: line-through;
  }
+
+.main {
+	background: white;
+	padding: 5%;
+	height: 700px;
+}
 
 input[type="text" i ] {
 	height: 25px;
