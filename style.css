@@ -57,14 +57,11 @@ input[type="button" i] {
 	height: 30px;
 	width: 70px;
 	border-radius: 10px;
-	background-color: #00A9DD;
-	border: 10px double;
 	text-align: center;
-	border-color: #F01652;
-	margin: auto;
-	padding: 0 0 0 0;
 	font-size: 20px;
-	opacity: 0.75;
+	background-color: #FFF;
+	border-width: 5px 5px 5px 5px;
+	border-image: url(img/jButton.png) 13% 9% repeat;
 }
 
 .button:hover {
