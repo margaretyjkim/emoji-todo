@@ -30,7 +30,7 @@ label {
 .main {
 	background: white;
 	padding: 5%;
-	height: 700px;
+	height: 100vh;
 }
 
 input[type="text" i ] {
