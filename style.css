@@ -52,6 +52,10 @@ input[type="button" i] {
 	font-weight: bold;
  }
 
+ input[type="checkbox" i] {
+	margin: 2%;
+ }
+
 .button {
 	font-family: san-serif;
 	height: 30px;
