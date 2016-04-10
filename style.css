@@ -22,6 +22,7 @@ label {
 	width: 100px;
 	line-height: 30px;
 	display: block;
+	text-align: center;
 	margin: auto;
 }
 
@@ -34,6 +35,7 @@ label {
 	padding: 5%;
 	height: 100vh;
 	border-radius: 15px;
+
 }
 
 input[type="text" i ] {
@@ -78,4 +80,6 @@ input[type="button" i] {
 	font-weight: bold;
 }
 
-
+.input {
+	text-align: center;
+}
