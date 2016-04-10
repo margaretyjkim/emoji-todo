@@ -40,6 +40,8 @@ input[type="text" i ] {
 	border-radius: 3px;
 	padding: 0 6px;
 	display: inline-block;
+	border-style: none;
+	border-bottom-style: dotted;
 }
 
 input[type="button" i] {
