@@ -1,6 +1,6 @@
+@import "compass/css3";
 * {
-	margin: 0;
-	padding: 0;
+	padding: 2em;
 }
 
 *:before,
@@ -12,36 +12,56 @@
 
 body {
 	font-family: sans-serif;
-	margin: auto;
-	width: 400px;
 	background-color: #8FCB9B;
-	background-image: linear-gradient(to bottom, #8FCB9B, #EAE6E5 100%);
 }
 
 label {
-	width: 100px;
-	line-height: 30px;
-	display: block;
 	text-align: center;
-	margin: auto;
 }
 
 .checkedOff {
 	text-decoration: line-through;
  }
 
+.wrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+	text-align: center;
+}
+
+.wrapper > * {
+	padding: 10px;
+	flex: 1 100%;
+}
+
+.header {
+	background: tomato;
+}
+
+.footer {
+	background: lightgreen;
+}
+
 .main {
 	background: white;
-	padding: 5%;
-	height: 100vh;
-	border-radius: 15px;
+	text-align: left;
+}
 
+.aside-2 {
+	background: hotpink;
 }
 
 input[type="text" i ] {
 	height: 25px;
 	width: 200px;
-	border-radius: 3px;
+	background: transparent;
 	padding: 0 6px;
 	display: inline-block;
 	border-style: none;
@@ -82,4 +102,15 @@ input[type="button" i] {
 
 .input {
 	text-align: center;
+}
+
+@media all and (min-width: 600px) {
+	.aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+	.main { flex: 3 0px; }
+	.main { order: 2; }
+	.aside-2 { order: 3; }
+	.footer { order: 4; }
 }

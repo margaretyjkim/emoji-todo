@@ -8,17 +8,23 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="main">
-		<form name="taskForm">
-			<label>Tasks</label>
-			<br/>
-			<div class="input">
-				<input type="text" name="task" placeholder="go buy apples" />
-				<input type="button" value="Add" onClick="todoForm()" class="button">
-			</div>
-		</form>
-		<div id="todoInfo"></div>
-	</div>
+	<div class="wrapper">
+		<header class="header">
+			<form name="taskForm">
+				<label>Tasks</label>
+				<br/>
+				<div class="input">
+					<input type="text" name="task" placeholder="go buy apples" />
+					<input type="button" value="Add" onClick="todoForm()" class="button">
+				</div>
+			</form>
+		</header>
+		<article class="main">
 
+			<div id="todoInfo"></div>
+		</article>
+		<aside class="aside aside-2">Aside 2</aside>
+		<footer class="footer">Footer</footer>
+	</div>
 </body>
 </html>
