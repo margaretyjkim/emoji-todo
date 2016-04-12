@@ -17,6 +17,7 @@ body {
 
 label {
 	text-align: center;
+	font-size: 32px;
 }
 
 .checkedOff {
